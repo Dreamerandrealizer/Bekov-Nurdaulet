@@ -1,0 +1,54 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
+}
+.webpage{
+  margin: auto;
+  background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("imgs/back.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.tabs{
+  float: right;
+  list-style: none;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+.tabs li{
+  display: inline-block;
+}
+.tabs li a{
+  color: #000000;
+  padding: 5px 20px;
+  font-size: 12px;
+}
+.tabs li a:hover{
+  background: #FFFAF0;
+  color: #333;
+}
+.logo img{
+  width: 150px;
+  float: left;
+  padding-left: 5%;
+  padding-top: 2%;
+}
+.home-intro{
+  position: absolute;
+  margin: 20% 30%;
+  text-align: center;
+}
+.home-intro h1{
+  text-align: center;
+  color: AliceBlue;
+  font-size: 80px;
+}
+p{
+  text-align:center;
+  color: AliceBlue;
+  font-size: 20px;
+}
