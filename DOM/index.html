@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>DOM</h1>
+
+    <p id="name"></p>
+    <p id="group"></p>
+
+    <hr>
+
+    <p id = "year"></p>
+    <p id = "day"></p>
+    <p id = "date"></p>
+    <p id = "month"></p>
+    <p id = "time"></p>
+
+    <hr>
+
+    <form>
+    1st Number : <input type="text" id="firstNumber" /><br>
+    2nd Number: <input type="text" id="secondNumber" /><br>
+    <input type="button" onClick="multiplyBy()" Value="Multiply" />
+    <input type="button" onClick="divideBy()" Value="Divide" />
+    </form>
+    <p>The Result is : <br>
+    <span id = "result"></span>
+    </p>
+
+    <hr>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
