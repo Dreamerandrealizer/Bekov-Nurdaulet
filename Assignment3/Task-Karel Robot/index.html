@@ -1,0 +1,128 @@
+--- TASK-2 ---
+function main(){
+   Cclear();
+   Starter();
+   Sslear();
+   Cclear();
+   Starter();
+   Sslear();
+   Cclear();
+}
+function turnRight(){
+   turnLeft();
+   turnLeft();
+   turnLeft();
+}
+function Cclear(){
+   while (frontIsClear()){
+      putBeeper();
+      move();
+      move();
+   }
+}
+function Sslear(){
+   putBeeper();
+   move();
+   move();
+   putBeeper();
+   move();
+   turnRight();
+   move();
+   turnRight();
+}
+function Starter(){
+   putBeeper();
+   repeat(2){
+     turnLeft();
+     move();
+   }
+}
+
+--- TASK-3 --- VAR-1
+function main(){
+   turnLeft();
+   repeat(4){
+      move();
+   }
+   RM();
+   LM();
+   RM();
+   move();
+   RM();
+   RM();
+   LM();
+   RM();
+   LM();
+   LM();
+   move();
+   RM();
+   LM();
+   RM();
+   LM();
+   LM();
+   move();
+   LM();
+   RM();
+   move();
+   RM();
+   LM();
+}
+function turnRight(){
+   turnLeft();
+   turnLeft();
+   turnLeft();
+}
+function RM(){
+   turnRight();
+   move();
+}
+function LM(){
+   turnLeft();
+   move();
+}
+--- TASK-3 --- VAR-2
+function main(){
+   turnLeft();
+   repeat(4){
+      move();
+   }
+   RM();
+   LM();
+   MR();
+   RM();
+   RM();
+   LM();
+   RM();
+   LM();
+   ML();
+   RM();
+   LM();
+   RM();
+   LM();
+   ML();
+   LM();
+   MR();
+   RM();
+   LM();
+}
+function turnRight(){
+   turnLeft();
+   turnLeft();
+   turnLeft();
+}
+function RM(){
+   turnRight();
+   move();
+}
+function LM(){
+   turnLeft();
+   move();
+}
+function MR(){
+   RM();
+   move();
+}
+function ML(){
+   LM();
+   move();
+}
