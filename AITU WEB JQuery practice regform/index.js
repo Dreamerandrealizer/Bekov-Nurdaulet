@@ -88,12 +88,12 @@ $( "#btn1" ).click(function() {
   $( "#box" ).animate({
    width: "250px",
    height: "250px",
-    }, 1500 );
+    });
 });
 
 $( "#btn2" ).click(function() {
   $( "#box" ).animate({
    width: "100px",
    height: "100px",
-    }, 1500 );
+    });
 });
