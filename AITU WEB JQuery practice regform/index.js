@@ -16,23 +16,6 @@ function checkPassword(){
   }
 }
 
-//$(document).on('click', '.toggle-password', function() {
-
-//    $(this).toggleClass("fa-eye fa-eye-slash");
-
-//    var input = $("#1password");
-//    input.attr('type') === 'password' ? input.attr('type','text') : input.attr('type','password')
-//});
-
-//$("#showpaswd").click(function () {
-//        var x = document.getElementById("1password");
-//        if (x.type === "password") {
-//            x.type = "text";
-//        } else {
-//            x.type = "password";
-//        }
-//    });
-
 $(document).ready(function(){
   const password = $('#1password');
   $('#eye').click(function(){

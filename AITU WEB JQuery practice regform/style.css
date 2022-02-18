@@ -37,8 +37,6 @@
   font-size: 20px;
 }
 .ct{
-  /*margin-top: 20px;
-  padding-left: 100px;*/
   position: absolute;
   top: 30%;
   width: 100%;
@@ -137,6 +135,5 @@ img{
 }
 #haw{
   position: absolute;
-  /*padding-left: 100px;*/
   margin-left: 650px;
 }
