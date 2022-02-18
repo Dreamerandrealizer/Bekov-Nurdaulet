@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Saira Condensed', sans-serif;
+}
+#title{
+  margin: auto;
+  background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("imgs/back.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.logo img{
+  width: 60px;
+  float: left;
+}
+.home-intro{
+  position:relative;
+  margin: 14% 30%;
+  text-align: center;
+}
+#text{
+  text-align: center;
+  color: AliceBlue;
+  font-size: 100px;
+  font-weight: bold;
+}
+.welcome{
+  color: #fff;
+  font-size: 25px;
+}
+.lir{
+  text-align:center;
+  color: AliceBlue;
+  font-size: 20px;
+}
+.ct{
+  /*margin-top: 20px;
+  padding-left: 100px;*/
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+.cttext{
+  text-align: center;
+  margin-right: 60px;
+}
+h2{
+  margin-bottom: : 20px;
+  padding-top: 20px;
+  padding-left: 100px;
+  position: relative;
+  top: 20px;
+  color: #FFF;
+}
+h3{
+  font-weight: bold;
+}
+.snk{
+  color: #162128;
+}
+img{
+  margin-right: 20px;
+}
+.container-fluid{
+  padding: 20px 20px;
+}
+
+/* NavBar */
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 50px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* Features */
+#features{
+  padding: 2% 10%;
+  text-align: center;
+}
+.feature-box{
+  padding: 5%;
+}
+.fea{
+  color: #8f8f8f;
+}
+.icon{
+  margin: 1rem;
+  color: #EADDCA;
+}
+.icon:hover{
+  color: #E97451;
+}
+
+/*Testimonials*/
+#testimonials{
+  text-align: center;
+  background-color: #EADDCA;
+}
+.test{
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.ryan{
+  width: 90px;
+  margin-top: 10px;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 2% 10%;
+
+}
+#form{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+.topp{
+  text-align: center;
+  font-size: 24px;
+}
+#fade{
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 250px;
+}
+#haw{
+  position: absolute;
+  /*padding-left: 100px;*/
+  margin-left: 650px;
+}
