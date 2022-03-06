@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Saira Condensed', sans-serif;
+}
+#title{
+  margin: auto;
+  background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("imgs/back.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.logo img{
+  width: 60px;
+  float: left;
+}
+.home-intro{
+  position:relative;
+  margin: 14% 20%;
+  text-align: center;
+}
+#text{
+  text-align: center;
+  color: AliceBlue;
+  font-size: 100px;
+  font-weight: bold;
+}
+#panel, #flip{
+  text-align: center;
+  color: AliceBlue;
+  font-size: 75px;
+  font-weight: bold;
+  padding: 5px;
+  background-color: #EADDCA;
+  border: solid 1px #c3c3c3;
+}
+#panel {
+  padding: 50px;
+  display: none;
+  font-size: 35px;
+}
+.shopp{
+  color: #FDFEFE ;
+}
+.prcode{
+  color: #EC7063;
+}
+.welcome{
+  color: #fff;
+  font-size: 25px;
+}
+.lir{
+  text-align:center;
+  color: AliceBlue;
+  font-size: 20px;
+}
+.ct{
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+}
+.cttext{
+  text-align: center;
+  margin-right: 88px;
+}
+h2{
+  margin-bottom: : 20px;
+  padding-top: 20px;
+  padding-left: 100px;
+  position: relative;
+  top: 20px;
+  color: #FFF;
+}
+h3{
+  font-weight: bold;
+}
+.snk{
+  color: #162128;
+}
+img{
+  margin-right: 20px;
+}
+.container-fluid{
+  padding: 20px 20px;
+}
+
+/* NavBar */
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 50px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* Features */
+#features{
+  padding: 2% 10%;
+  text-align: center;
+}
+.feature-box{
+  padding: 5%;
+}
+.fea{
+  color: #8f8f8f;
+}
+.icon{
+  margin: 1rem;
+  color: #EADDCA;
+}
+.icon:hover{
+  color: #E97451;
+}
+
+/*Testimonials*/
+#testimonials{
+  text-align: center;
+  background-color: #EADDCA;
+}
+.test{
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.ryan{
+  width: 90px;
+  margin-top: 10px;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 2% 10%;
+
+}
+
+.topp{
+  text-align: center;
+  font-size: 24px;
+}
+#fade{
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 250px;
+}
+#haw{
+  position: absolute;
+  margin-left: 650px;
+}
+.form-control{
+  width: 20%;
+}
+.contact-page{
+  width: 360px;
+  padding-top: 20px;
+  margin: auto;
+}
+.conform{
+  position: relative;
+  z-index: 1;
+  background-color: #EBD0AA;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 24px;
+  text-align: center;
+  border-radius: 8px;
+}
+.conform input{
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 2px solid #909497;
+  border-radius: 8px;
+  margin: 0 0 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.conform textarea{
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 2px solid #909497;
+  border-radius: 8px;
+  margin: 0 0 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.reg-page{
+  width: 360px;
+  padding-top: 20px;
+  margin: auto;
+}
+.regform{
+  position: relative;
+  z-index: 1;
+  background-color: #EBD0AA;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 24px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.regform input{
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 2px solid #909497;
+  border-radius: 8px;
+  margin: 0 0 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.modal {
+  display: none;
+  position: fixed; /
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.default {
+  border-color: #e7e7e7;
+  color: black;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+#myBtn{
+  font-weight: bold;
+}
